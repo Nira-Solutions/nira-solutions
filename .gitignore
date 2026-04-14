@@ -1,6 +1,8 @@
 .env
 .env.local
 .env.*.local
+.secrets-prod.local
+*.secrets.local
 __pycache__/
 *.pyc
 *.pyo
