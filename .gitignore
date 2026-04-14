@@ -1,7 +1,17 @@
 .env
+.env.local
+.env.*.local
 __pycache__/
 *.pyc
+*.pyo
 logs/
 .DS_Store
 node_modules/
 .next/
+.vercel/
+out/
+dist/
+build/
+.turbo/
+*.log
+.supabase/
