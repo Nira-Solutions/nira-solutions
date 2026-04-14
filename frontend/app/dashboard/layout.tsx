@@ -15,6 +15,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
     { href: '/dashboard', label: 'Overview', icon: LayoutDashboard },
     { href: '/dashboard/agents', label: 'Agents', icon: Bot },
     { href: '/dashboard/drafts', label: 'À valider', icon: Inbox },
+    { href: '/dashboard/runs', label: 'Historique', icon: Inbox },
     { href: '/dashboard/billing', label: 'Facturation', icon: CreditCard },
     { href: '/dashboard/settings', label: 'Paramètres', icon: Settings },
   ];
